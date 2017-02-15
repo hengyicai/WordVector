@@ -32,9 +32,9 @@ $ mvn exec:java -Dexec.mainClass="GenTFIDF"
 
 3.  Run `GenTFIDF` with command-line arguments like this:
 
-	```shell
-	mvn exec:java -Dexec.mainClass="GenTFIDF" -Dexec.args="-docs DOCS_PATH [-o OUTPUT_FILE] [-e TEXT_FILE_ENCODING]"
-	```
+```shell
+$ mvn exec:java -Dexec.mainClass="GenTFIDF" -Dexec.args="-docs DOCS_PATH [-o OUTPUT_FILE] [-e TEXT_FILE_ENCODING]"
+```
 	
 4.  Check your output file to see the tf-idf scores of each term in each document, the terms in each document have been sorted in descending order, so you can find the most important terms to this document in the collection or corpus.
 
